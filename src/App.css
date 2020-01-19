@@ -69,6 +69,17 @@ button.ui.button.form {
   transform: translate(-50%, 0);
 }
 
+.event-item {
+  margin: 0;
+  padding: 0;
+}
+
+.event-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (max-width: 411px) {
   .box {
     height: 100vh;

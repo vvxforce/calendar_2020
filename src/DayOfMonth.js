@@ -28,7 +28,7 @@ const DayOfMonth = ({ month, setModalValue, events, currentYearAndMonth }) => {
       >
         <div className="day-cell__number">{day}</div>
         <div>
-          <ul>
+          <ul className="event-list">
             {events
               .filter((item) => {
                 const today = new Date(
@@ -48,7 +48,7 @@ const DayOfMonth = ({ month, setModalValue, events, currentYearAndMonth }) => {
                 );
               })
               .map(item => (
-                <li>{item.title}</li>
+                <li className="event-item">{item.title}</li>
               ))}
           </ul>
         </div>
