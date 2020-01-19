@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/calendar_2020/static/css/main.a30da656.chunk.css",
+    "main.js": "/calendar_2020/static/js/main.15847288.chunk.js",
+    "main.js.map": "/calendar_2020/static/js/main.15847288.chunk.js.map",
+    "runtime-main.js": "/calendar_2020/static/js/runtime-main.936c4696.js",
+    "runtime-main.js.map": "/calendar_2020/static/js/runtime-main.936c4696.js.map",
+    "static/css/2.52f06de7.chunk.css": "/calendar_2020/static/css/2.52f06de7.chunk.css",
+    "static/js/2.dde57ef0.chunk.js": "/calendar_2020/static/js/2.dde57ef0.chunk.js",
+    "static/js/2.dde57ef0.chunk.js.map": "/calendar_2020/static/js/2.dde57ef0.chunk.js.map",
+    "index.html": "/calendar_2020/index.html",
+    "precache-manifest.c1fbb6e81a47104a6bc8a397fb1db3fe.js": "/calendar_2020/precache-manifest.c1fbb6e81a47104a6bc8a397fb1db3fe.js",
+    "service-worker.js": "/calendar_2020/service-worker.js",
+    "static/css/2.52f06de7.chunk.css.map": "/calendar_2020/static/css/2.52f06de7.chunk.css.map",
+    "static/css/main.a30da656.chunk.css.map": "/calendar_2020/static/css/main.a30da656.chunk.css.map",
+    "static/js/2.dde57ef0.chunk.js.LICENSE": "/calendar_2020/static/js/2.dde57ef0.chunk.js.LICENSE",
+    "static/media/semantic.min.css": "/calendar_2020/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.936c4696.js",
+    "static/css/2.52f06de7.chunk.css",
+    "static/js/2.dde57ef0.chunk.js",
+    "static/css/main.a30da656.chunk.css",
+    "static/js/main.15847288.chunk.js"
+  ]
+}
