@@ -1,1 +1,76 @@
+.container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.box {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-row-gap: 1px;
+  grid-column-gap: 1px;
+  color: #000;
+  width: 98vw;
+  height: 70vh;
+  font-size: 1.5em;
+  transition: height 0.5s;
+}
+
+.box__title {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.current-day {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.options {
+  padding-bottom: 20px;
+}
+
+.day-cell {
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  font-size: 1em;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.day-cell__number {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.today {
+  background-color: lightsteelblue;
+}
+
+label {
+  font-size: 14px;
+}
+
+.input {
+  display: inline-block;
+  margin: 5px;
+}
+
+button.ui.button.form {
+  margin: 10px 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@media screen and (max-width: 411px) {
+  .box {
+    height: 100vh;
+  }
+}
